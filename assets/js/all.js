@@ -1,8 +1,10 @@
 "use strict";
 
-console.log('Hello!');
 $(document).ready(function () {
-  console.log('HesSchool Hello!');
+  $('.show-menu').click(function (e) {
+    e.preventDefault();
+    $('body').toggleClass('open-menu');
+  });
 });
 "use strict";
 
