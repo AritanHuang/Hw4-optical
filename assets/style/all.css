@@ -162,6 +162,7 @@ a {
   background-color: #aa0601;
   position: relative;
   position: fixed;
+  z-index: 99;
   width: 100%; }
   .header .container {
     display: -webkit-box;
@@ -620,6 +621,64 @@ a {
       font-size: 48px;
       font-weight: 900;
       color: #aa0601; }
+
+.customer-reco {
+  text-align: center;
+  margin-bottom: 80px; }
+  @media (max-width: 767px) {
+    .customer-reco {
+      margin-bottom: 40px; } }
+  .customer-reco h2 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 48px;
+    color: #650300; }
+    @media (max-width: 767px) {
+      .customer-reco h2 {
+        font-size: 24px;
+        margin-bottom: 24px; } }
+  .customer-reco .customer-reco-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 24px; }
+    @media (max-width: 992px) {
+      .customer-reco .customer-reco-list {
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; } }
+    .customer-reco .customer-reco-list li {
+      width: 25%;
+      border: 1px solid #e0e0e0;
+      border-radius: 4px 4px 0px 0px;
+      -webkit-box-shadow: 0 5px 5px #d0d0d0;
+              box-shadow: 0 5px 5px #d0d0d0;
+      position: relative; }
+      @media (max-width: 992px) {
+        .customer-reco .customer-reco-list li {
+          width: 48%; } }
+      @media (max-width: 767px) {
+        .customer-reco .customer-reco-list li {
+          width: 98%; } }
+    .customer-reco .customer-reco-list li:hover {
+      -webkit-box-shadow: 0 5px 5px #6c6c6c;
+              box-shadow: 0 5px 5px #6c6c6c; }
+    .customer-reco .customer-reco-list .text {
+      text-align: left;
+      padding-left: 8px;
+      padding-right: 8px; }
+      @media (max-width: 992px) {
+        .customer-reco .customer-reco-list .text {
+          padding: 16px; } }
+    .customer-reco .customer-reco-list h4 {
+      margin-bottom: 8px;
+      font-weight: 500; }
+    .customer-reco .customer-reco-list p {
+      margin-bottom: 96px; }
+    .customer-reco .customer-reco-list time {
+      font-size: 14px;
+      color: #707070;
+      position: absolute;
+      bottom: 16px; }
 
 .faq-content {
   padding-top: 176px;
