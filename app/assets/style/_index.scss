@@ -259,3 +259,78 @@
         }
     }
 }
+// 聯絡我們
+.contact-us {
+    background-color: $secondary;
+    padding: $spacer * 10 0 $spacer * 4 0;
+    @include mobile() {
+        padding: $spacer * 5 0 $spacer * 2 0;
+    }
+    .container {
+        max-width: 660px;
+        @include pad() {
+            max-width: 576px;
+        }
+        @include mobile() {
+            max-width: 348px;
+        }
+    }
+    h2 {
+        font-size: 48px;
+        margin-bottom: $spacer * 6;
+        color: $text-color;
+        font-weight: 700;
+        text-align: center;
+        @include mobile() {
+            font-size: 24px;
+            margin-bottom: $spacer * 3;
+        }
+    }
+    p {
+        font-size: 20px;
+        text-align-last: left;
+        margin-bottom: $spacer * 3;
+        @include mobile() {
+            font-size: 16px;
+        }
+    }
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+        .agree label {
+            @include mobile() {
+                display: flex;
+            }
+        }
+        label {
+            margin-bottom: $spacer;
+            display: block;
+        }
+        input,
+        textarea {
+            margin-bottom: $spacer * 2;
+            background: none;
+            border: 1px solid #000;
+            padding: 6px 0 6px 12px;
+        }
+        .btn {
+            margin: $spacer * 6 auto;
+            display: block;
+            background: $primary;
+            color: #fff;
+            width: 65%;
+            border: none;
+            padding: $spacer * 2 0;
+            text-align: center;
+            font-weight: 700;
+            cursor: pointer;
+            @include mobile() {
+                margin: $spacer * 3 auto;
+                width: 100%;
+            }
+        }
+        .btn:hover {
+            color: #000;
+        }
+    }
+}
