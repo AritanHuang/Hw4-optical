@@ -324,6 +324,7 @@
             text-align: center;
             font-weight: 700;
             cursor: pointer;
+            border-radius: 0;
             @include mobile() {
                 margin: $spacer * 3 auto;
                 width: 100%;
