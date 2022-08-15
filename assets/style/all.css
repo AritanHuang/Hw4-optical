@@ -745,13 +745,15 @@ a {
       text-align: center;
       font-weight: 700;
       cursor: pointer;
+      -webkit-appearance: none;
+      -moz-appearance: none;
       border-radius: 0; }
       @media (max-width: 767px) {
         .contact-us .contact-form .btn {
           margin: 24px auto;
           width: 100%; } }
     .contact-us .contact-form .btn:hover {
-      color: #000; }
+      opacity: 0.8; }
 
 .faq-content {
   padding-top: 176px;
