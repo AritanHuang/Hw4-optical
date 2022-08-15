@@ -324,6 +324,9 @@
             text-align: center;
             font-weight: 700;
             cursor: pointer;
+            // 修復ios圓角按鈕問題
+            -webkit-appearance: none;
+            -moz-appearance: none;
             border-radius: 0;
             @include mobile() {
                 margin: $spacer * 3 auto;
@@ -331,7 +334,7 @@
             }
         }
         .btn:hover {
-            color: #000;
+            opacity: 0.8;
         }
     }
 }
