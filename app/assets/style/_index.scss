@@ -198,3 +198,64 @@
     }
 }
 // 顧客推薦區塊
+.customer-reco {
+    text-align: center;
+    margin-bottom: $spacer * 10;
+    @include mobile() {
+        margin-bottom: $spacer * 5;
+    }
+    h2 {
+        font-size: 48px;
+        font-weight: 700;
+        margin-bottom: $spacer * 6;
+        color: $text-color;
+        @include mobile() {
+            font-size: 24px;
+            margin-bottom: $spacer * 3;
+        }
+    }
+    .customer-reco-list {
+        display: flex;
+        gap: 24px;
+        @include pad() {
+            flex-wrap: wrap;
+        }
+        li {
+            width: 25%;
+            border: 1px solid #e0e0e0;
+            border-radius: 4px 4px 0px 0px;
+            box-shadow: 0 5px 5px #d0d0d0;
+            position: relative;
+            @include pad() {
+                width: 48%;
+            }
+            @include mobile() {
+                width: 98%;
+            }
+        }
+        li:hover {
+            box-shadow: 0 5px 5px #6c6c6c;
+        }
+        .text {
+            text-align: left;
+            padding-left: $spacer;
+            padding-right: $spacer;
+            @include pad() {
+                padding: $spacer * 2;
+            }
+        }
+        h4 {
+            margin-bottom: $spacer;
+            font-weight: 500;
+        }
+        p {
+            margin-bottom: $spacer * 12;
+        }
+        time {
+            font-size: 14px;
+            color: #707070;
+            position: absolute;
+            bottom: 16px;
+        }
+    }
+}

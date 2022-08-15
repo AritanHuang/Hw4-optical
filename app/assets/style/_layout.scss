@@ -21,6 +21,7 @@
     background-color: $primary;
     position: relative;
     position: fixed;
+    z-index: 99;
     width: 100%;
     .container {
         display: flex;
