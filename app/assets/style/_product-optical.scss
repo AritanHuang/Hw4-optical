@@ -1,0 +1,38 @@
+// 鏡框選單區塊
+.product {
+    padding-top: $spacer * 10;
+    @include pad() {
+        max-width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .product-list {
+        display: flex;
+        justify-content: center;
+        li {
+            width: 33.3333%;
+            border: 1px solid #dcdcdc;
+        }
+        a {
+            display: block;
+            text-align: center;
+            padding: $spacer * 3 0;
+            color: #000;
+            font-size: 32px;
+            @include pad() {
+                font-size: 24px;
+                padding: $spacer * 2 0;
+            }
+            @include mobile() {
+                font-size: 16px;
+            }
+        }
+        a:hover {
+            border-bottom: 8px solid $primary;
+            padding-bottom: $spacer * 2;
+            @include pad() {
+                padding-bottom: $spacer;
+            }
+        }
+    }
+}
