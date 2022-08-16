@@ -974,7 +974,7 @@ a {
       @media (max-width: 767px) {
         .store .zone .select-zone {
           width: 276px;
-          font-size: 24px; } }
+          font-size: 20px; } }
   .store .store_list {
     display: -webkit-box;
     display: -ms-flexbox;
