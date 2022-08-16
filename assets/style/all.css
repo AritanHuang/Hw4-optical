@@ -843,12 +843,22 @@ a {
 .product-optical {
   text-align: center;
   margin-bottom: 24px; }
+  @media (max-width: 767px) {
+    .product-optical {
+      margin-bottom: 64px; } }
   .product-optical h2 {
     font-size: 42px;
     font-weight: 500; }
+    @media (max-width: 767px) {
+      .product-optical h2 {
+        font-size: 24px; } }
   .product-optical h3 {
     font-size: 32px;
     margin-bottom: 32px; }
+    @media (max-width: 767px) {
+      .product-optical h3 {
+        font-size: 24px;
+        margin-bottom: 24px; } }
   .product-optical .optical {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -859,6 +869,14 @@ a {
   .product-optical .optical-list {
     width: 23%;
     margin-bottom: 56px; }
+    @media (max-width: 992px) {
+      .product-optical .optical-list {
+        width: 48%;
+        margin-bottom: 16px; } }
+    @media (max-width: 767px) {
+      .product-optical .optical-list {
+        width: 98%;
+        margin-bottom: 0; } }
     .product-optical .optical-list ul {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -896,6 +914,9 @@ a {
       -ms-flex-pack: center;
           justify-content: center;
   margin-bottom: 80px; }
+  @media (max-width: 767px) {
+    .pagination {
+      margin-bottom: 64px; } }
   .pagination .page-item {
     border: 1px solid #555555; }
     .pagination .page-item a {
@@ -903,6 +924,9 @@ a {
       padding: 11px 12px;
       font-size: 19px;
       color: #555555; }
+      @media (max-width: 767px) {
+        .pagination .page-item a {
+          font-size: 16px; } }
     .pagination .page-item a:hover {
       background: #000; }
   .pagination .page-item:last-child {
