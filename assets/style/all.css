@@ -932,4 +932,91 @@ a {
   .pagination .page-item:last-child {
     background: #f2f2f2; }
 
+.store {
+  padding-top: 176px;
+  margin-bottom: 80px; }
+  @media (max-width: 767px) {
+    .store {
+      padding-top: 120px;
+      margin-bottom: 96px; } }
+  .store h2 {
+    font-size: 48px;
+    font-weight: 700;
+    padding-left: 8px;
+    border-left: 8px solid #9f1213;
+    margin-bottom: 32px; }
+    @media (max-width: 767px) {
+      .store h2 {
+        font-size: 24px;
+        margin-bottom: 24px; } }
+  .store .zone {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 46px; }
+    @media (max-width: 992px) {
+      .store .zone {
+        margin-bottom: 40px; } }
+    @media (max-width: 767px) {
+      .store .zone {
+        margin-bottom: 24px; } }
+    .store .zone label {
+      font-size: 24px;
+      margin-right: 16px; }
+      @media (max-width: 767px) {
+        .store .zone label {
+          font-size: 16px;
+          margin-right: 8px; } }
+    .store .zone .select-zone {
+      width: 304px;
+      padding: 6px 0 6px 12px; }
+      @media (max-width: 767px) {
+        .store .zone .select-zone {
+          width: 276px; } }
+  .store .store_list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 24px; }
+    .store .store_list .store_list_item {
+      border: 1px solid #00000020;
+      width: 30.33333%; }
+      @media (max-width: 992px) {
+        .store .store_list .store_list_item {
+          width: 46%; } }
+      @media (max-width: 767px) {
+        .store .store_list .store_list_item {
+          width: 98%; } }
+    .store .store_list h4 {
+      font-size: 24px;
+      padding: 8px 0 7px 24px;
+      border-bottom: 1px solid #00000020;
+      margin-bottom: 16px; }
+    .store .store_list .info-btn {
+      display: block;
+      background: #000;
+      color: #fff;
+      text-align: center;
+      font-size: 19px;
+      padding: 16px 0; }
+    .store .store_list .info-btn:hover {
+      background: #aa0601; }
+  .store .info li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 20px;
+    margin-left: 24px;
+    margin-bottom: 8px;
+    margin-right: 24px;
+    gap: 8px; }
+    @media (max-width: 767px) {
+      .store .info li {
+        margin-left: 27px;
+        margin-bottom: 16px; } }
+    .store .info li .material-icons {
+      margin-right: 8px; }
+
 /*# sourceMappingURL=all.css.map */
