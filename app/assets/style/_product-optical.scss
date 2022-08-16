@@ -54,3 +54,71 @@
         }
     }
 }
+// 近視眼鏡商品區塊
+.product-optical {
+    text-align: center;
+    margin-bottom: $spacer * 3;
+    h2 {
+        font-size: 42px;
+        font-weight: 500;
+    }
+    h3 {
+        font-size: 32px;
+        margin-bottom: $spacer * 4;
+    }
+    .optical {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+    .optical-list {
+        width: 23%;
+        margin-bottom: $spacer * 7;
+        ul {
+            display: flex;
+            justify-content: space-between;
+            font-size: 24px;
+            .price {
+                color: $primary;
+            }
+        }
+        .block {
+            display: flex;
+            justify-content: flex-start;
+            .brown {
+                width: 24px;
+                height: 24px;
+                border-radius: 4px;
+                background-color: #5f3e2d;
+                margin-right: $spacer;
+            }
+            .red {
+                width: 24px;
+                height: 24px;
+                border-radius: 4px;
+                background-color: #b75929;
+            }
+        }
+    }
+}
+// pagination
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-bottom: $spacer * 10;
+    .page-item {
+        border: 1px solid #555555;
+        a {
+            display: block;
+            padding: 11px 12px;
+            font-size: 19px;
+            color: #555555;
+        }
+        a:hover {
+            background: #000;
+        }
+    }
+    .page-item:last-child {
+        background: #f2f2f2;
+    }
+}
