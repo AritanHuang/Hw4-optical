@@ -970,8 +970,6 @@ a {
     .store .zone .select-zone {
       width: 304px;
       padding: 6px 0 6px 12px;
-      -webkit-appearance: none;
-      -moz-appearance: none;
       border-radius: 0; }
       @media (max-width: 767px) {
         .store .zone .select-zone {
