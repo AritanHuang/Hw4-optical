@@ -840,4 +840,72 @@ a {
     .optical-header .optical-header-pic2 {
       content: url(../images/product-header-sm-2.png); } }
 
+.product-optical {
+  text-align: center;
+  margin-bottom: 24px; }
+  .product-optical h2 {
+    font-size: 42px;
+    font-weight: 500; }
+  .product-optical h3 {
+    font-size: 32px;
+    margin-bottom: 32px; }
+  .product-optical .optical {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 24px; }
+  .product-optical .optical-list {
+    width: 23%;
+    margin-bottom: 56px; }
+    .product-optical .optical-list ul {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      font-size: 24px; }
+      .product-optical .optical-list ul .price {
+        color: #aa0601; }
+    .product-optical .optical-list .block {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: start;
+          -ms-flex-pack: start;
+              justify-content: flex-start; }
+      .product-optical .optical-list .block .brown {
+        width: 24px;
+        height: 24px;
+        border-radius: 4px;
+        background-color: #5f3e2d;
+        margin-right: 8px; }
+      .product-optical .optical-list .block .red {
+        width: 24px;
+        height: 24px;
+        border-radius: 4px;
+        background-color: #b75929; }
+
+.pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 80px; }
+  .pagination .page-item {
+    border: 1px solid #555555; }
+    .pagination .page-item a {
+      display: block;
+      padding: 11px 12px;
+      font-size: 19px;
+      color: #555555; }
+    .pagination .page-item a:hover {
+      background: #000; }
+  .pagination .page-item:last-child {
+    background: #f2f2f2; }
+
 /*# sourceMappingURL=all.css.map */
