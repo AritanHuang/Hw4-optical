@@ -1,0 +1,47 @@
+.store-info {
+    margin-bottom: $spacer * 8;
+}
+.store-info-list {
+    display: flex;
+    gap: 24px;
+    @include pad() {
+        flex-wrap: wrap;
+    }
+    .store_list_item {
+        border: 1px solid #00000020;
+        width: 39%;
+        @include pad() {
+            display: flex;
+            gap: 24px;
+            width: 100%;
+            border: none;
+        }
+        @include mobile() {
+            display: inline;
+            border: 1px solid #00000020;
+            width: 98%;
+        }
+        img {
+            @include pad() {
+                width: 48%;
+            }
+            @include mobile() {
+                width: 100%;
+            }
+        }
+        .info {
+            @include pad() {
+                border: 1px solid #00000020;
+            }
+            @include mobile() {
+                border: none;
+            }
+        }
+    }
+    h4 {
+        font-size: 24px;
+        padding: $spacer 0 7px $spacer * 3;
+        border-bottom: 1px solid #00000020;
+        margin-bottom: $spacer * 2;
+    }
+}
