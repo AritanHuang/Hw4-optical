@@ -826,4 +826,18 @@ a {
         .product .product-list a:hover {
           padding-bottom: 8px; } }
 
+.optical-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 80px; }
+  .optical-header img {
+    width: 50%; }
+  @media (max-width: 992px) {
+    .optical-header .optical-header-pic {
+      content: url(../images/product-header-sm-1.png); } }
+  @media (max-width: 992px) {
+    .optical-header .optical-header-pic2 {
+      content: url(../images/product-header-sm-2.png); } }
+
 /*# sourceMappingURL=all.css.map */
