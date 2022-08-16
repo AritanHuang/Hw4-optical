@@ -1,3 +1,91 @@
-.store_info {
+.store {
     padding-top: ($spacer * 12)+80px;
+    margin-bottom: $spacer * 10;
+    @include mobile() {
+        padding-top: ($spacer * 5)+80px;
+        margin-bottom: $spacer * 12;
+    }
+    h2 {
+        font-size: 48px;
+        font-weight: 700;
+        padding-left: $spacer;
+        border-left: 8px solid #9f1213;
+        margin-bottom: $spacer * 4;
+        @include mobile() {
+            font-size: 24px;
+            margin-bottom: $spacer * 3;
+        }
+    }
+    .zone {
+        display: flex;
+        margin-bottom: 46px;
+        @include pad() {
+            margin-bottom: $spacer * 5;
+        }
+        @include mobile() {
+            margin-bottom: $spacer * 3;
+        }
+        label {
+            font-size: 24px;
+            margin-right: $spacer * 2;
+            @include mobile() {
+                font-size: 16px;
+                margin-right: $spacer;
+            }
+        }
+        .select-zone {
+            width: 304px;
+            padding: 6px 0 6px 12px;
+            @include mobile() {
+                width: 276px;
+            }
+        }
+    }
+    .store_list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+        .store_list_item {
+            border: 1px solid #00000020;
+            width: 30.33333%;
+            @include pad() {
+                width: 46%;
+            }
+            @include mobile() {
+                width: 98%;
+            }
+        }
+        h4 {
+            font-size: 24px;
+            padding: $spacer 0 7px $spacer * 3;
+            border-bottom: 1px solid #00000020;
+            margin-bottom: $spacer * 2;
+        }
+        .info-btn {
+            display: block;
+            background: #000;
+            color: #fff;
+            text-align: center;
+            font-size: 19px;
+            padding: $spacer * 2 0;
+        }
+        .info-btn:hover {
+            background: $primary;
+        }
+    }
+    .info li {
+        display: flex;
+        font-size: 20px;
+        margin-left: $spacer * 3;
+        margin-bottom: $spacer;
+        margin-right: $spacer * 3;
+        gap: 8px;
+        @include mobile() {
+            margin-left: 27px;
+            margin-bottom: $spacer * 2;
+        }
+        .material-icons {
+            margin-right: $spacer;
+        }
+    }
 }
