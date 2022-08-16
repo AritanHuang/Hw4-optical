@@ -37,8 +37,8 @@
             width: 304px;
             padding: 6px 0 6px 12px;
             // 修復ios圓角按鈕問題
-            -webkit-appearance: none;
-            -moz-appearance: none;
+            // -webkit-appearance: none;
+            // -moz-appearance: none;
             border-radius: 0;
             @include mobile() {
                 width: 276px;
