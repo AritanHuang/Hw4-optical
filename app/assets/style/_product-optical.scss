@@ -36,3 +36,21 @@
         }
     }
 }
+// 近視眼鏡header區塊
+.optical-header {
+    display: flex;
+    margin-bottom: $spacer * 10;
+    img {
+        width: 50%;
+    }
+    .optical-header-pic {
+        @include pad() {
+            content: url(../images/product-header-sm-1.png);
+        }
+    }
+    .optical-header-pic2 {
+        @include pad() {
+            content: url(../images/product-header-sm-2.png);
+        }
+    }
+}
