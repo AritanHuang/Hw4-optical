@@ -973,7 +973,8 @@ a {
       border-radius: 0; }
       @media (max-width: 767px) {
         .store .zone .select-zone {
-          width: 276px; } }
+          width: 276px;
+          padding: 12px; } }
   .store .store_list {
     display: -webkit-box;
     display: -ms-flexbox;
