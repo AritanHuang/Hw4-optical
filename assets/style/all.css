@@ -190,16 +190,15 @@ a {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; }
-    .header .menu li {
-      padding-top: 25px;
-      padding-bottom: 25px; }
     .header .menu li:not(:last-child) {
       padding-right: 48px; }
     .header .menu a {
       color: #fff;
       font-size: 20px;
       font-weight: 400;
-      display: block; }
+      display: block;
+      padding-top: 25px;
+      padding-bottom: 25px; }
     .header .menu a:hover {
       opacity: 0.7; }
   .header .show-menu {
@@ -929,6 +928,8 @@ a {
           font-size: 16px; } }
     .pagination .page-item a:hover {
       background: #000; }
+    .pagination .page-item .page-link:hover {
+      color: #fff; }
   .pagination .page-item:last-child {
     background: #f2f2f2; }
 
